@@ -6143,7 +6143,8 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: rgb(51, 51, 51) !important;
+  opacity: 0.8;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
