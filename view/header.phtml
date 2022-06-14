@@ -12,8 +12,8 @@
         <li><a href="socialni_site.php">SOCIÁLNÍ SÍTĚ</a></li>
         <?php
         if (isset($_SESSION['user'])) {
-            echo '<li><a href="logoff.php">ODHLÁSIT SE</a></li>';
             echo '<li><a href="fotogalerie.php">FOTOGALERIE</a></li>';
+            echo '<li><a href="logoff.php">ODHLÁSIT SE</a></li>';
         } else {
             echo '<li><a href="login.php">PŘIHLÁSIT SE</a></li>';
             echo '<li><a href="register.php">REGISTROVAT</a></li>';
