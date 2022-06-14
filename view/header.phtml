@@ -1,10 +1,12 @@
 <header id="top">
-    <img src="img/LOGO1.png" alt="logo studia" class="logo">
-    <?php
-    if (isset($_SESSION['user'])) {
-        echo "Přihlášen jako: {$_SESSION['user']['name']}";
-    }
-    ?>
+    <div class="left">
+        <img src="img/LOGO1.png" alt="logo studia" class="logo">
+        <?php
+        if (isset($_SESSION['user'])) {
+            echo '<div id="username">Přihlášen jako: '.$_SESSION["user"]["name"].'</div>';
+        }
+        ?>
+    </div>
     <ul class="odkaz">
         <li><a href="index.php">ÚVOD</a></li>
         <li><a href="onas.php">PROJEKTY</a></li>

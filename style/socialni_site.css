@@ -53,6 +53,11 @@ section{
 .tw a{
     padding-left: 10px;
 }
+footer{
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100% !important;
+}
 @media(max-width: 1218px){
     .stred{
         flex-direction: column;

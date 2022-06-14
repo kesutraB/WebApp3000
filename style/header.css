@@ -28,6 +28,14 @@ footer{
     padding-top: 5px;
     padding-left: 5px;
 }
+.left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#username{
+    margin-left: 20px;
+}
 .odkaz{
     list-style: none;
 }
