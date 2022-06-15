@@ -13,7 +13,6 @@ function login($DB, $info){
 function register($DB, $info){
     $hashedpass = sha1($info["password"]);
     $SQL = "INSERT INTO users (name, email, password) VALUES ('{$info["name"]}', '{$info["email"]}', '{$hashedpass}')";
-    echo $SQL;
     mysqli_query($DB, $SQL);
     header("location: login.php");
 }
